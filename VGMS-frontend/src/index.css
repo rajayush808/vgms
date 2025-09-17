@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.genre-pill {
+  @apply bg-red-800 rounded-full px-2 text-gray-300 text-sm;
+}
+
+.platform-pill {
+  @apply bg-blue-800 rounded-full px-2 text-gray-300 text-sm;
+}
+
+.text-gradient {
+  @apply bg-linear-to-r from-[#5c2bd9] via-[#fb6e6e] to-[#ffe137] bg-clip-text text-transparent;
+}
+
+.main-button {
+  @apply bg-blue-400 rounded-md p-2;
+}
